@@ -1,6 +1,9 @@
 import numpy as np
 import matplotlib.pyplot as plt
-plt.style.use('seaborn')
+try:
+    plt.style.use('seaborn')
+except:
+    plt.style.use('seaborn-v0_8')
 
 import scikits.bootstrap as bootstrap
 import warnings
