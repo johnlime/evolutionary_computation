@@ -8,7 +8,7 @@ Implementation of evolutionary algorithm for discrete binary genomes as seen in 
 - 2-point list crossover
 - Truncation selection
 - Tournament selection
-- Scatter search (diversity)
+- Scatter search (novelty search, diversity)
 - N-K Fitness Landscape (implemented by Prof. Nick Cheney)
 
 ## Dependencies

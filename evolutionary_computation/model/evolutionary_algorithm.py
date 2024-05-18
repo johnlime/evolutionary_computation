@@ -1,6 +1,6 @@
 import numpy as np
 import copy
-from evolutionary_computation.model.modules import *
+from .modules import *
 
 
 def evolutionary_algorithm(fitness_function = None,
